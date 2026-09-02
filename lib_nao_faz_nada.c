@@ -8,6 +8,6 @@ char* pega_flag(){
     return NULL;
   }
 
-  char* buffer = "DEU CERTO";
+  char* buffer = strdup("DEU CERTO");
   return buffer;
 }
